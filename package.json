@@ -1,0 +1,23 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node hello.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devanshibhatt23/NodeJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devanshibhatt23/NodeJS/issues"
+  },
+  "homepage": "https://github.com/devanshibhatt23/NodeJS#readme",
+  "description": ""
+}
