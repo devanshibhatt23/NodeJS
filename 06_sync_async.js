@@ -1,7 +1,6 @@
 const fs = require("fs")
 
 // blocking operations / synchronous operations
-
 console.log('start');
 
 console.log(fs.readFileSync("04.txt", "utf-8"));
@@ -10,7 +9,6 @@ console.log('this runs at last');
 
 
 // non-blocking operations / asynchronous operations
-
 console.log('start');
 
 fs.readFile("04.txt", "utf-8", (err,res) => {
