@@ -1,26 +1,5 @@
-1775055743699 : New req received at /
-1775055743723 : New req received at /favicon.ico
-1775055795056 : New req received at /about
-1775055795073 : New req received at /favicon.ico
-1775055850836 : New req received at /about?myname=xyz
-1775055850852 : New req received at /favicon.ico
-1775056794012 : New req received at /about?myname=xyz
-1775056794031 : New req received at /favicon.ico
-1775056806164 : New req received at /
-1775056806180 : New req received at /favicon.ico
-1775056846262 : New req received at /
-1775056846281 : New req received at /favicon.ico
-1775056880570 : New req received at /about?myname=xyz
-1775056880585 : New req received at /favicon.ico
-1775056884720 : New req received at /about?myname=xyz
-1775056884735 : New req received at /favicon.ico
-1775056928751 : New req received at /about?myname=xyz&id=1
-1775056928766 : New req received at /favicon.ico
-1775057003463 : New req received at /about?myname=xyz&id=1
-1775057003483 : New req received at /favicon.ico
-1775057063140 : New req received at /about?myname=xyz&id=1
-1775057063159 : New req received at /favicon.ico
-1775060172885 : New req received at /about?myname=xyz&id=1
-1775060172911 : New req received at /favicon.ico
-1775060238241 : New req received at /about?myname=xyz&id=1
-1775060238261 : New req received at /favicon.ico
+1775753045444 : New req received at /signup. Method : GET
+1775753123708 : New req received at /signup. Method : GET
+1775753123732 : New req received at /favicon.ico. Method : GET
+1775753134906 : New req received at /. Method : GET
+1775753134925 : New req received at /favicon.ico. Method : GET
