@@ -19,5 +19,8 @@
     "url": "https://github.com/devanshibhatt23/NodeJS/issues"
   },
   "homepage": "https://github.com/devanshibhatt23/NodeJS#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
