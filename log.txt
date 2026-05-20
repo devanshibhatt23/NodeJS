@@ -3,3 +3,7 @@
 1775753123732 : New req received at /favicon.ico. Method : GET
 1775753134906 : New req received at /. Method : GET
 1775753134925 : New req received at /favicon.ico. Method : GET
+1779293686908 : New req received at /. Method : GET
+1779293686931 : New req received at /favicon.ico. Method : GET
+1779293730559 : New req received at /about. Method : GET
+1779293730579 : New req received at /favicon.ico. Method : GET
