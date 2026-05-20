@@ -1,0 +1,14 @@
+version - ^4.18.2
+
+Last part - Minor fixes (optional update)
+Second part - Recommended bug fix (security fix)
+First part - Major/Breaking update (entire new application)
+- if your application is in version 4, then after updating to version 5, it may not work
+
+- to install express at a particular version, command - npm install express@version
+
+^4.18.2 - meaning of ^4 is that version 4 shouldn't be changed (4.18.2 - <5.0.0)
+- it installs all recommended and minor updates but does not install major updates
+- it means "Compatible with version"
+
+~4.18.2 - means that it only installs minor updates, recommended updates does not change 
