@@ -2,7 +2,7 @@ const express = require("express");
 const http = require("http");
 // express is a framework (which internally uses http module only) which automates handling of routes and http methods and makes the code clean 
 
-// app works as a handler function passed as a callback function
+// app works as a handler function passed as a callback function (it is an instance of express)
 const app = express();
 
 app.get("/", (req,res) => {
@@ -21,4 +21,4 @@ app.get("/about", (req,res) => {
 
 app.listen(8000, () => {
     console.log("server started");
-}); 
+});
