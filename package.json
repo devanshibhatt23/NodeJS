@@ -1,25 +1,26 @@
 {
   "name": "js",
   "version": "1.0.0",
-  "main": "hello.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node hello.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "directories": {
-    "doc": "docs"
+  "description": "",
+  "homepage": "https://github.com/devanshibhatt23/NodeJS#readme",
+  "bugs": {
+    "url": "https://github.com/devanshibhatt23/NodeJS/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/devanshibhatt23/NodeJS.git"
   },
-  "bugs": {
-    "url": "https://github.com/devanshibhatt23/NodeJS/issues"
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "11_index.js",
+  "directories": {
+    "doc": "docs"
   },
-  "homepage": "https://github.com/devanshibhatt23/NodeJS#readme",
-  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node 11_index.js"
+  },
   "dependencies": {
     "express": "^5.2.1"
   }
