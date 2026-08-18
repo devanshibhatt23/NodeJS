@@ -8,6 +8,23 @@ const PORT = 8000;
 // middleware - plugin
 app.use(express.urlencoded({ extended: false }));
 
+// middleware functions can execute any code, make changes to requests, responses, end the req-res cycle, call the next middleware func in stack - they have access to requests, response and next middleware function
+app.use((req,res,next) => {
+    console.log("middleware");
+    req.myusername = "xyz";
+    
+    // return res.json({ msg: "middleware blocked your request"});
+    next();
+});
+
+app.use((req,res,next) => {
+    console.log("middleware", req.myusername);
+    
+    fs.appendFile("./11_log.txt", `${Date.now()}: ${req.method} ${req.path} by user at ip address ${req.ip}\n`, (err,data) => {
+        next();
+    });
+});
+
 app.get("/users", (req,res) => {
     const html = `
     <ul>
@@ -63,4 +80,4 @@ app.route("/api/users/:id")
     });
 });
 
-app.listen(PORT, () => console.log(`server started at port - ${PORT}`)); 
+app.listen(PORT, () => console.log(`server started at port - ${PORT}`));
