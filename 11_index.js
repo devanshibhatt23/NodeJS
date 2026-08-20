@@ -36,6 +36,10 @@ app.get("/users", (req,res) => {
 });
 
 app.get("/api/users", (req,res) => {
+    console.log(req.headers);
+
+    // custom header (add X to custom header)
+    res.setHeader("X-new-header", "xyz");
     return res.json(users);
 });
 

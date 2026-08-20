@@ -1,1 +1,4 @@
 1787071736904: GET /users by user at ip address ::1
+1787244514128: GET /api/users by user at ip address ::1
+1787244566480: GET /api/users by user at ip address ::1
+1787244841981: GET /api/users by user at ip address ::1
