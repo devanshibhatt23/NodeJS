@@ -5,15 +5,18 @@ function sub(a, b) {
     return a-b
 }
 
-// module.exports = add
-// module.exports = sub
+// // module.exports = add
+// // module.exports = sub
 
-// single export
-// module.exports = {
-//     add,
-//     sub
-// }
+// // single export
+module.exports = {
+    add,
+    sub
+}
 
 // multiple export
-exports.add = add;
-exports.div = (a,b) => a / b;
+// exports.add = add;
+// exports.div = (a,b) => a / b;
+
+
+// export { add as sum };
