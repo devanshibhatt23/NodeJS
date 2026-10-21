@@ -7,3 +7,19 @@
 1779293686931 : New req received at /favicon.ico. Method : GET
 1779293730559 : New req received at /about. Method : GET
 1779293730579 : New req received at /favicon.ico. Method : GET
+1792589518236: GET / by user at ip address ::1
+1792589531405: GET /users by user at ip address ::1
+1792589556405: GET /api/users by user at ip address ::1
+1792589564323: GET /api/users by user at ip address ::1
+1792589590500: GET /api/users by user at ip address ::1
+1792589678865: GET /api/users by user at ip address ::1
+1792590000355: GET /api/user by user at ip address ::1
+1792590012859: GET /user by user at ip address ::1
+1792590063448: GET /user by user at ip address ::1
+1792590202686: POST /user by user at ip address ::1
+1792590293801: POST /user by user at ip address ::1
+1792590339058: GET /user/6ad8c1d53e70b2b026722298 by user at ip address ::1
+1792590346768: PATCH /user/6ad8c1d53e70b2b026722298 by user at ip address ::1
+1792590360599: GET /user/6ad8c1d53e70b2b026722298 by user at ip address ::1
+1792590375243: DELETE /user/6ad8c1d53e70b2b026722298 by user at ip address ::1
+1792590385479: GET /user/6ad8c1d53e70b2b026722298 by user at ip address ::1
