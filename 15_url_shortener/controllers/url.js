@@ -24,9 +24,8 @@ async function shortenUrl(req,res) {
         visitHistory: [],
     });
 
-    return res.json({
-        "data" : newUrl,
-        "message" : "success",
+    return res.render("home", {
+        shortUrl: shortUrl,
     });
 }
 
