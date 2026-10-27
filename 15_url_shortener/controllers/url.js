@@ -22,6 +22,7 @@ async function shortenUrl(req,res) {
         longUrl: longUrl,
         shortUrl: shortUrl,
         visitHistory: [],
+        createdBy: req.user._id,
     });
 
     return res.render("home", {
