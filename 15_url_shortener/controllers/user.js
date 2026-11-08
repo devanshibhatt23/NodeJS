@@ -26,10 +26,13 @@ async function loginUser(req,res) {
 
     console.log("User successfully logged in:", User);
 
-    const sessionId = uuidv4();
-    setUser(sessionId,User);
+    // const sessionId = uuidv4();
+    // setUser(sessionId,User);
 
-    res.cookie("uuid", sessionId);
+    const token = setUser(User);
+
+    // res.cookie("uuid", sessionId);
+    res.cookie("token", token);
     
     return res.redirect("/");
 }
